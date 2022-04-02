@@ -1,5 +1,5 @@
 var requestUrl =
-  "https://api.nal.usda.gov/fdc/v1/foods/search?query=twix&pageSize=2&api_key=vuZ8WUcvpMr1mNoGUwWsyX4AWHv3LLaeRcZpDoga";
+  "https://api.nal.usda.gov/fdc/v1/foods/search?query=beef&pageSize=2&api_key=vuZ8WUcvpMr1mNoGUwWsyX4AWHv3LLaeRcZpDoga";
 
 function getRequest() {
   fetch(requestUrl)
@@ -29,6 +29,10 @@ function getRequest() {
 
       console.log(calories.value);
       console.log(sugar.value)
-    });
+ 
+
+ 
 }
+
 getRequest();
+ 
