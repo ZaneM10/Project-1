@@ -33,15 +33,11 @@ searchBtn.addEventListener("click", function(event){
       });
 
       var calories = foodNutrients.find(function (nutrient) {
-        // console.log(nutrient.nutrientName);
-        //    return nutrient.nutrientName==="Energy";
+        console.log(nutrient.nutrientName);
+           return nutrient.nutrientName==="Energy";
         if (nutrient.nutrientName === "Energy") {
           return true;
         } else {
           return false;
         }
       });
-    
-
-      // console.log(calories.value);
-      // console.log(sugar.value)}
